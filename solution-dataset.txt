@@ -1,0 +1,10 @@
+nycshootings=# SELECT boro, COUNT(*) FROM nypd_shooting_incident_data GROUP BY boro; 
+     boro      | count 
+---------------+-------
+ MANHATTAN     |   274
+ BRONX         |   505
+ QUEENS        |   302
+ BROOKLYN      |   809
+ STATEN ISLAND |    52
+(5 rows)
+
