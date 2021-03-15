@@ -5,7 +5,7 @@
 ### Added
 - Created README.md
 - Created ChangeLog.md
-- Created HelloWorld.java
+- Created index.html and custom.js 
 
 - Uploaded Lab1
 - Uploaded Lab2
