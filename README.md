@@ -12,3 +12,4 @@ Lab 3 Prepartion for job applicaitons
 Lab 4 Linux commands and programs
 
 Lab 5 Manipulating datasets with linux terminal 
+      - See relevant files: Lab 5.docx, NYPD_Shooting_Incident_Data__Year_To_Date_.csv, dataset-output.txt, solution-dataset.txt 
