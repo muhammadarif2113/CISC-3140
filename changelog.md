@@ -1,9 +1,9 @@
-#ChangeLog
+##ChangeLog
 [Version 1.0]
 #Added
 Created README.md
 Created ChangeLog.md
-Created HelloWorld.java
+Created index.html
 
 Uploaded Lab1
 Uploaded Lab2
