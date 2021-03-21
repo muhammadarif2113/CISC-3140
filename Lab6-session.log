@@ -1,0 +1,52 @@
+  685  mkdir Repo1
+  686  mkdir RepoMeta 
+  687  ls
+  688  cd Repo1 
+  689  touch HelloWorld.java 
+  690  ls
+  691  nano HelloWorld.java 
+  692  javac HelloWorld.java 
+  693  sudo apt install defailt.jdk 
+  694  sudo apt install default.jdk 
+  695  sudo apt install default-jdk
+  696  javac HelloWorld.java
+  697  nano HelloWorld.java 
+  698  javac HelloWorld.java
+  699  nano HelloWorld.java
+  700  javac HelloWorld.java
+  701  git init 
+  702  git add .
+  703  git commit -m "HelloWorld.java - output is HelloWorld" 
+  704  git remote add origin https://github.com/muhammadarif2113/CISC-3140.git
+  705  git push origin main 
+  706  git push origin 
+  707  git push origin master
+  708  cat HelloWorld.java 
+  709  touch HelloWorld.java 
+  710  ls
+  711  nano HelloWorld.java
+  712  cat HelloWorld.java
+  713  git status 
+  714  git commit -m "HelloWorld.java has been updated with todays date"  
+  715  git add HellowWorld.java 
+  716  git add HelloWorld.java 
+  717  git commit -m "HelloWorld.java has been updated with todays date"  
+  718  git status 
+  719  git push origin master
+  720  git checkout main 
+  721  cd /Desktop/Design&Implementation
+  722  cd Desktop/Design&Implementation
+  723  cd 
+  724  cd Desktop 
+  725  cd Design\&Implementation/
+  726  cd CISC-3140
+  727  cd 
+  728  cd Desktop
+  729  cd Design\&Implementation/
+  730  cd RepoMeta 
+  731  history > session.log
+  732  ls 
+  733  nano session.log
+  734  rm session.log
+  735  ls
+  736  history 52 > session.log
