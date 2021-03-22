@@ -1,0 +1,125 @@
+  785  sudo apt-get install subversion 
+  786  cd - 
+  787  svnadmin help create 
+  788  svnadmin create /home/moe/Desktop/Design&Implementation 
+  789  svnadmin create /home/moe/Desktop/Design&Implementation/Repo1
+  790  ls
+  791  mkdir Repo2 
+  792  ls
+  793  cd Repo2
+  794  sudo mkdir -p Repo2/Repo2
+  795  ls
+  796  sudo svnserve -d -r /svn/Repo2
+  797  sudo svnserve -d -r /Repo2/Repo2
+  798  sudo svnserve -d -r /Repo2
+  799  cd - 
+  800  mkdir hello_world 
+  801  cd hello_world 
+  802  vi hello.py
+  803  touch hello.py
+  804  nano hello.py
+  805  python hello.py
+  806  python3 hello.py
+  807  sudo mkdir -p /svn/repos
+  808  sudo svnadmin create /svn/repos/Repo2
+  809  sudo svn svnserve -d -r /svn/repos
+  810  sudo svnserve -d -r /svn/repos
+  811  cd - 
+  812  ifconfig
+  813  sudo apt install net-tools
+  814  ifconfig
+  815  svn import hello_world/ svn://10.0.2.15/Repo2
+  816  sudo nano /svn/repos/Repo2/conf/svnserve.conf
+  817  sudo nano /svn/repos/Repo2/conf/passwd
+  818  svn import hello_world/ svn://10.0.2.15/Repo2
+  819  ifconfig
+  820  svn import hello_world/ svn://127.0.0.1/Repo2
+  821  ip addr show
+  822  svn import hello_world/ svn://10.0.2.15/24/Repo2
+  823  svn import hello_world/ svn://10.0.2.15/Repo2
+  824  curl ifconfig.me
+  825  svn import hello_world/ svn://108.21.98.87/Repo2
+  826  ssh
+  827  sudo apt-get install openssh-client 
+  828  ssh
+  829  ssh localhost
+  830  sudo apt-get install openssh-server ii.
+  831  sudo service ssh status
+  832  ssh host_ip_address
+  833  ssh your_username@host_ip_address
+  834  ssh moe@host_ip_address
+  835  ssh
+  836  sudo systemctl start ssh
+  837  history
+  838  cd Desktop 
+  839  LS
+  840  ls
+  841  cd Design&Implementation
+  842  cd 'Design&Implementation'
+  843  ls
+  844  cd hello_world 
+  845  ls
+  846  cd
+  847  sudo mkdir -p /svn/repos
+  848  sudo svnadmin create /svn/repos/hello1
+  849  sudo svnserve -d -r /svn/repos
+  850  ls
+  851  sudo aptitude install subversion
+  852  sudo addgroup svn
+  853  sudo gpasswd -a "$USER" svn
+  854  sudo mkdir -p /svn/repository
+  855  sudo chgrp -R svn /svn/repository
+  856  sudo chmod -R 770 /svn/repository
+  857  svnadmin create /svn/repository/my_project
+  858  cd svn
+  859  cd /svn/
+  860  ls
+  861  cd repository
+  862  cd repos
+  863  ls
+  864  cd
+  865  nano /svn/repository
+  866  nano /svn/repository/Repo2/conf/passwd
+  867  nano /svn/repos/Repo2/conf/passwd
+  868  nano /svn/repos/Repo2/conf/svnserve.conf
+  869  vi /svn/repos/Repo2/conf/svnserve.conf
+  870  vi /svn/repository/my_project/conf/passwd
+  871  svnserve -d -r /svn/repos
+  872  svnserve -d -r /svn/repository
+  873  cd /etc/init.d/
+  874  sudo echo "svnserve -d -r /svn/repository/my_project" > svnserve
+  875  sudo echo "svnserve -d -r /svn/repo/Repo2" > svnserve
+  876  cd
+  877  cd /svn
+  878  ls
+  879  cd repos
+  880  ls
+  881  cd Repo2
+  882  ls
+  883  sudo chgrp -R svn /svn/repository
+  884  sudo chgrp -R svn /svn/repos
+  885  sudo chmod -R 770 /svn/repos
+  886  svnadmin create /svn/repos/my_project
+  887  svnadmin create /svn/repos/Repo22
+  888  ls
+  889  cd - 
+  890  cd- 
+  891  cd 
+  892  cd /svn
+  893  ;ls
+  894  ls
+  895  cd repos
+  896  cd /svn/
+  897  ls
+  898  cd repos
+  899  cd /repos/
+  900  sudo su 
+  901  history 
+  902  cd
+  903  cd Desktop 
+  904  ls
+  905  cd 'Design&Implementation' 
+  906  ls
+  907  history 125 > session.log
+  908  ls
+  909  history 125 > session2.log
