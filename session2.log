@@ -28,17 +28,11 @@
   812  ifconfig
   813  sudo apt install net-tools
   814  ifconfig
-  815  svn import hello_world/ svn://10.0.2.15/Repo2
   816  sudo nano /svn/repos/Repo2/conf/svnserve.conf
   817  sudo nano /svn/repos/Repo2/conf/passwd
-  818  svn import hello_world/ svn://10.0.2.15/Repo2
   819  ifconfig
-  820  svn import hello_world/ svn://127.0.0.1/Repo2
   821  ip addr show
-  822  svn import hello_world/ svn://10.0.2.15/24/Repo2
-  823  svn import hello_world/ svn://10.0.2.15/Repo2
   824  curl ifconfig.me
-  825  svn import hello_world/ svn://108.21.98.87/Repo2
   826  ssh
   827  sudo apt-get install openssh-client 
   828  ssh
@@ -101,25 +95,6 @@
   885  sudo chmod -R 770 /svn/repos
   886  svnadmin create /svn/repos/my_project
   887  svnadmin create /svn/repos/Repo22
-  888  ls
-  889  cd - 
-  890  cd- 
-  891  cd 
-  892  cd /svn
-  893  ;ls
-  894  ls
-  895  cd repos
-  896  cd /svn/
-  897  ls
-  898  cd repos
-  899  cd /repos/
-  900  sudo su 
-  901  history 
-  902  cd
-  903  cd Desktop 
-  904  ls
-  905  cd 'Design&Implementation' 
-  906  ls
   907  history 125 > session.log
   908  ls
   909  history 125 > session2.log
