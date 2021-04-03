@@ -13,7 +13,9 @@ Lab 4 Linux commands and programs
 
 Lab 5 Manipulating datasets with linux terminal 
       - See relevant files: Lab 5.docx, NYPD_Shooting_Incident_Data__Year_To_Date_.csv, dataset-output.txt, solution-dataset.txt 
+     
 Lab 6 Using Git vs. SVN 
       - Relevant files: Lab6-session.log, Lab6-session2.log
+     
 Lab 7 Writing programs with Scheme 
      - See Lab 7.pdf 
