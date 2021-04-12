@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <div>
+        <h1><center> Enter a number </center></h1>
+        <center><input type="text" id="phoneNum"/></center>
+    </div>
+    
+    <script>  
+        document.getElementById('phoneNum').addEventListener('keyup', function(e) { //keyup for event 
+            var phoneNumber = document.getElementById('phoneNum');
+            var charCode = e.keyCode; 
+            phoneNumber.value = phoneFormat(phoneNumber.value);
+        });
+
+        document.getElementById('phoneNum').value = phoneFormat(document.getElementById('phoneNum').value);
+
+
+        function phoneFormat(input) { //g will replace all matches of non digits with empty string
+            input = input.replace(/\D/g, ''); //so non digit characters cant be entered 
+            input = input.substring(0, 10); //only 9 numbers are allowed 
+            var size = input.length;
+            if (size == 0) {
+                input = input;
+            } else if (size < 4) { //adds space after fourth number is entered 
+                input = '' + input;
+            } else if (size < 7) {
+                input = '' + input.substring(0, 3) + ' - ' + input.substring(3, 6); //add a hypen after third num
+            } else {
+                input = '' + input.substring(0, 3) + ' - ' + input.substring(3, 6) + ' - ' + input.substring(6, 10); //add a hypen space after 7th num is entered 
+            }
+            return input;
+        }
+        </script>
+</html>
