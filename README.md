@@ -22,3 +22,6 @@ Lab 7 Writing programs with Scheme
     
 Lab 8 Writing JavaScript/Phone Formatter 
      - See Lab 8.pdf and Lab 8 source code.html 
+
+Lab 9 Learning SQL and Implementation 
+     - See Lab 9.pdf 
