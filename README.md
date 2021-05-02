@@ -25,5 +25,6 @@ Lab 8 Writing JavaScript/Phone Formatter
 
 Lab 9 Learning SQL and Implementation 
      - See Lab 9.pdf 
+     
 Lab 10 Interactive Resume using Bootstrap 
      - See Lab 10.pdf and lab10-resume-bootstrap.html
